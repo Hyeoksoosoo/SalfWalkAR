@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6400EFA72E7CD1C00028635A /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFA62E7CD1C00028635A /* KakaoSDK */; };
+		6400EFA92E7CD1C00028635A /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFA82E7CD1C00028635A /* KakaoSDKAuth */; };
+		6400EFAB2E7CD1C00028635A /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFAA2E7CD1C00028635A /* KakaoSDKCert */; };
+		6400EFAD2E7CD1C00028635A /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFAC2E7CD1C00028635A /* KakaoSDKCertCore */; };
+		6400EFAF2E7CD1C00028635A /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFAE2E7CD1C00028635A /* KakaoSDKCommon */; };
+		6400EFB12E7CD1C00028635A /* KakaoSDKFriend in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFB02E7CD1C00028635A /* KakaoSDKFriend */; };
+		6400EFB32E7CD1C00028635A /* KakaoSDKFriendCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFB22E7CD1C00028635A /* KakaoSDKFriendCore */; };
+		6400EFB52E7CD1C00028635A /* KakaoSDKNavi in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFB42E7CD1C00028635A /* KakaoSDKNavi */; };
+		6400EFB72E7CD1C00028635A /* KakaoSDKShare in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFB62E7CD1C00028635A /* KakaoSDKShare */; };
+		6400EFB92E7CD1C00028635A /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFB82E7CD1C00028635A /* KakaoSDKTalk */; };
+		6400EFBB2E7CD1C00028635A /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFBA2E7CD1C00028635A /* KakaoSDKTemplate */; };
+		6400EFBD2E7CD1C00028635A /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 6400EFBC2E7CD1C00028635A /* KakaoSDKUser */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		645E4A442E7C3F9D000775D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645E4A2D2E7C3F9D000775D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645E4A342E7C3F9D000775D9;
+			remoteInfo = SafeWalkAR;
+		};
+		645E4A4E2E7C3F9D000775D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645E4A2D2E7C3F9D000775D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645E4A342E7C3F9D000775D9;
+			remoteInfo = SafeWalkAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6400EFC82E7CD8E70028635A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		645E4A352E7C3F9D000775D9 /* SafeWalkAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeWalkAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		645E4A432E7C3F9D000775D9 /* SafeWalkARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeWalkARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		645E4A4D2E7C3F9D000775D9 /* SafeWalkARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeWalkARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		64D596072EAC8D3C0061FEEC /* Exceptions for "SafeWalkAR" folder in "SafeWalkAR" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 645E4A342E7C3F9D000775D9 /* SafeWalkAR */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		645E4A372E7C3F9D000775D9 /* SafeWalkAR */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				64D596072EAC8D3C0061FEEC /* Exceptions for "SafeWalkAR" folder in "SafeWalkAR" target */,
+			);
+			path = SafeWalkAR;
+			sourceTree = "<group>";
+		};
+		645E4A462E7C3F9D000775D9 /* SafeWalkARTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SafeWalkARTests;
+			sourceTree = "<group>";
+		};
+		645E4A502E7C3F9D000775D9 /* SafeWalkARUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SafeWalkARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645E4A322E7C3F9D000775D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6400EFB32E7CD1C00028635A /* KakaoSDKFriendCore in Frameworks */,
+				6400EFAD2E7CD1C00028635A /* KakaoSDKCertCore in Frameworks */,
+				6400EFAB2E7CD1C00028635A /* KakaoSDKCert in Frameworks */,
+				6400EFBB2E7CD1C00028635A /* KakaoSDKTemplate in Frameworks */,
+				6400EFB52E7CD1C00028635A /* KakaoSDKNavi in Frameworks */,
+				6400EFA72E7CD1C00028635A /* KakaoSDK in Frameworks */,
+				6400EFAF2E7CD1C00028635A /* KakaoSDKCommon in Frameworks */,
+				6400EFA92E7CD1C00028635A /* KakaoSDKAuth in Frameworks */,
+				6400EFBD2E7CD1C00028635A /* KakaoSDKUser in Frameworks */,
+				6400EFB92E7CD1C00028635A /* KakaoSDKTalk in Frameworks */,
+				6400EFB12E7CD1C00028635A /* KakaoSDKFriend in Frameworks */,
+				6400EFB72E7CD1C00028635A /* KakaoSDKShare in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645E4A402E7C3F9D000775D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645E4A4A2E7C3F9D000775D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6400EFA52E7CD1C00028635A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		645E4A2C2E7C3F9D000775D9 = {
+			isa = PBXGroup;
+			children = (
+				645E4A372E7C3F9D000775D9 /* SafeWalkAR */,
+				645E4A462E7C3F9D000775D9 /* SafeWalkARTests */,
+				645E4A502E7C3F9D000775D9 /* SafeWalkARUITests */,
+				6400EFA52E7CD1C00028635A /* Frameworks */,
+				645E4A362E7C3F9D000775D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		645E4A362E7C3F9D000775D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645E4A352E7C3F9D000775D9 /* SafeWalkAR.app */,
+				645E4A432E7C3F9D000775D9 /* SafeWalkARTests.xctest */,
+				645E4A4D2E7C3F9D000775D9 /* SafeWalkARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645E4A342E7C3F9D000775D9 /* SafeWalkAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645E4A572E7C3F9D000775D9 /* Build configuration list for PBXNativeTarget "SafeWalkAR" */;
+			buildPhases = (
+				645E4A312E7C3F9D000775D9 /* Sources */,
+				645E4A322E7C3F9D000775D9 /* Frameworks */,
+				645E4A332E7C3F9D000775D9 /* Resources */,
+				6400EFC82E7CD8E70028635A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				645E4A372E7C3F9D000775D9 /* SafeWalkAR */,
+			);
+			name = SafeWalkAR;
+			packageProductDependencies = (
+				6400EFA62E7CD1C00028635A /* KakaoSDK */,
+				6400EFA82E7CD1C00028635A /* KakaoSDKAuth */,
+				6400EFAA2E7CD1C00028635A /* KakaoSDKCert */,
+				6400EFAC2E7CD1C00028635A /* KakaoSDKCertCore */,
+				6400EFAE2E7CD1C00028635A /* KakaoSDKCommon */,
+				6400EFB02E7CD1C00028635A /* KakaoSDKFriend */,
+				6400EFB22E7CD1C00028635A /* KakaoSDKFriendCore */,
+				6400EFB42E7CD1C00028635A /* KakaoSDKNavi */,
+				6400EFB62E7CD1C00028635A /* KakaoSDKShare */,
+				6400EFB82E7CD1C00028635A /* KakaoSDKTalk */,
+				6400EFBA2E7CD1C00028635A /* KakaoSDKTemplate */,
+				6400EFBC2E7CD1C00028635A /* KakaoSDKUser */,
+			);
+			productName = SafeWalkAR;
+			productReference = 645E4A352E7C3F9D000775D9 /* SafeWalkAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		645E4A422E7C3F9D000775D9 /* SafeWalkARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645E4A5A2E7C3F9D000775D9 /* Build configuration list for PBXNativeTarget "SafeWalkARTests" */;
+			buildPhases = (
+				645E4A3F2E7C3F9D000775D9 /* Sources */,
+				645E4A402E7C3F9D000775D9 /* Frameworks */,
+				645E4A412E7C3F9D000775D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645E4A452E7C3F9D000775D9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				645E4A462E7C3F9D000775D9 /* SafeWalkARTests */,
+			);
+			name = SafeWalkARTests;
+			packageProductDependencies = (
+			);
+			productName = SafeWalkARTests;
+			productReference = 645E4A432E7C3F9D000775D9 /* SafeWalkARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		645E4A4C2E7C3F9D000775D9 /* SafeWalkARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645E4A5D2E7C3F9D000775D9 /* Build configuration list for PBXNativeTarget "SafeWalkARUITests" */;
+			buildPhases = (
+				645E4A492E7C3F9D000775D9 /* Sources */,
+				645E4A4A2E7C3F9D000775D9 /* Frameworks */,
+				645E4A4B2E7C3F9D000775D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645E4A4F2E7C3F9D000775D9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				645E4A502E7C3F9D000775D9 /* SafeWalkARUITests */,
+			);
+			name = SafeWalkARUITests;
+			packageProductDependencies = (
+			);
+			productName = SafeWalkARUITests;
+			productReference = 645E4A4D2E7C3F9D000775D9 /* SafeWalkARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645E4A2D2E7C3F9D000775D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					645E4A342E7C3F9D000775D9 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					645E4A422E7C3F9D000775D9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 645E4A342E7C3F9D000775D9;
+					};
+					645E4A4C2E7C3F9D000775D9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 645E4A342E7C3F9D000775D9;
+					};
+				};
+			};
+			buildConfigurationList = 645E4A302E7C3F9D000775D9 /* Build configuration list for PBXProject "SafeWalkAR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 645E4A2C2E7C3F9D000775D9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 645E4A362E7C3F9D000775D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645E4A342E7C3F9D000775D9 /* SafeWalkAR */,
+				645E4A422E7C3F9D000775D9 /* SafeWalkARTests */,
+				645E4A4C2E7C3F9D000775D9 /* SafeWalkARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		645E4A332E7C3F9D000775D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645E4A412E7C3F9D000775D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645E4A4B2E7C3F9D000775D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645E4A312E7C3F9D000775D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645E4A3F2E7C3F9D000775D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645E4A492E7C3F9D000775D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		645E4A452E7C3F9D000775D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645E4A342E7C3F9D000775D9 /* SafeWalkAR */;
+			targetProxy = 645E4A442E7C3F9D000775D9 /* PBXContainerItemProxy */;
+		};
+		645E4A4F2E7C3F9D000775D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645E4A342E7C3F9D000775D9 /* SafeWalkAR */;
+			targetProxy = 645E4A4E2E7C3F9D000775D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		645E4A552E7C3F9D000775D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		645E4A562E7C3F9D000775D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		645E4A582E7C3F9D000775D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SafeWalkAR/SafeWalkAR.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8ZQ8G7B48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SafeWalkAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "이 앱은 AR 기능을 위해 카메라를 사용합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "이 앱은 안전한 경로 안내를 위해 위치 정보를 사용합니다.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "이 앱은 AR 위치 코인 배치를 위해 모션 데이터를 사용합니다.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "School-word.SafeWalkAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		645E4A592E7C3F9D000775D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SafeWalkAR/SafeWalkAR.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8ZQ8G7B48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SafeWalkAR/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "이 앱은 AR 기능을 위해 카메라를 사용합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "이 앱은 안전한 경로 안내를 위해 위치 정보를 사용합니다.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "이 앱은 AR 위치 코인 배치를 위해 모션 데이터를 사용합니다.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "School-word.SafeWalkAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		645E4A5B2E7C3F9D000775D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "School-word.SafeWalkARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeWalkAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SafeWalkAR";
+			};
+			name = Debug;
+		};
+		645E4A5C2E7C3F9D000775D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "School-word.SafeWalkARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeWalkAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SafeWalkAR";
+			};
+			name = Release;
+		};
+		645E4A5E2E7C3F9D000775D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "School-word.SafeWalkARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeWalkAR;
+			};
+			name = Debug;
+		};
+		645E4A5F2E7C3F9D000775D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "School-word.SafeWalkARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeWalkAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		645E4A302E7C3F9D000775D9 /* Build configuration list for PBXProject "SafeWalkAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645E4A552E7C3F9D000775D9 /* Debug */,
+				645E4A562E7C3F9D000775D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645E4A572E7C3F9D000775D9 /* Build configuration list for PBXNativeTarget "SafeWalkAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645E4A582E7C3F9D000775D9 /* Debug */,
+				645E4A592E7C3F9D000775D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645E4A5A2E7C3F9D000775D9 /* Build configuration list for PBXNativeTarget "SafeWalkARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645E4A5B2E7C3F9D000775D9 /* Debug */,
+				645E4A5C2E7C3F9D000775D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645E4A5D2E7C3F9D000775D9 /* Build configuration list for PBXNativeTarget "SafeWalkARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645E4A5E2E7C3F9D000775D9 /* Debug */,
+				645E4A5F2E7C3F9D000775D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.24.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6400EFA62E7CD1C00028635A /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		6400EFA82E7CD1C00028635A /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		6400EFAA2E7CD1C00028635A /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		6400EFAC2E7CD1C00028635A /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		6400EFAE2E7CD1C00028635A /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		6400EFB02E7CD1C00028635A /* KakaoSDKFriend */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKFriend;
+		};
+		6400EFB22E7CD1C00028635A /* KakaoSDKFriendCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKFriendCore;
+		};
+		6400EFB42E7CD1C00028635A /* KakaoSDKNavi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKNavi;
+		};
+		6400EFB62E7CD1C00028635A /* KakaoSDKShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKShare;
+		};
+		6400EFB82E7CD1C00028635A /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTalk;
+		};
+		6400EFBA2E7CD1C00028635A /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTemplate;
+		};
+		6400EFBC2E7CD1C00028635A /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 649DB8DF2E7C6DDD00AA64E7 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 645E4A2D2E7C3F9D000775D9 /* Project object */;
+}
