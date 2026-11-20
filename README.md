@@ -105,7 +105,7 @@ open SafeWalkAR.xcodeproj
 5. **내비게이션 시작**: "출발하기" 버튼 클릭
 6. **코인 수집**: 경로를 따라 이동하며 코인 수집
 
-## 🏛️ 아키텍처
+##  아키텍처
 
 ### Manager 계층
 ```
@@ -150,23 +150,13 @@ ContentView (Root)
 ##  최근 업데이트
 
 ### v1.0.0 (2025-01-28)
-- ✅ AppConstants 확장 (색상/폰트/UI 상수)
-- ✅ Manager 계층 분석 및 정리
-- ✅ LocationManager 버그 수정
-- ✅ RouteCalculationUtils 유틸리티 추가
-- ✅ TurnByTurnNavigationView 버그 수정
-- ✅ 전체 프로젝트 빌드 성공
+-  AppConstants 확장 (색상/폰트/UI 상수)
+-  Manager 계층 분석 및 정리
+-  LocationManager 버그 수정
+-  RouteCalculationUtils 유틸리티 추가
+-  TurnByTurnNavigationView 버그 수정
+-  전체 프로젝트 빌드 성공
 
-##  기여
 
-기여는 언제나 환영합니다! Pull Request를 보내주세요.
 
-##  라이선스
 
-이 프로젝트는 MIT 라이선스 하에 배포됩니다.
-
-##  연락처
-
-프로젝트에 대한 문의사항은 Issues를 통해 남겨주세요.
-
----
